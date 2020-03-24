@@ -1,0 +1,98 @@
+body{
+    background-image: url('wall.jpg');
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.leftside{
+    display: flex;
+}
+
+.nav-wrapper > .leftside > div  {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+   transition: border-bottom 0.5s; 
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+    color: black;
+}
+.personname {
+    font-size: large;
+}
+
+
+
+p {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
+    font-style: italic;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+
+
+.media ul{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.media ul li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+.media ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: black;
+}
+
+.media ul li a {
+    position: relative;
+    display: black;
+    width: 60px;
+}
+.media ul li a:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
